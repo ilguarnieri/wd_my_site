@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@554&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/base-style.css">
+    <link rel="stylesheet" href="css/navbar-style.css">
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="icon" href="images/icon_ag.ico">
+    <meta name="description" content="Portfolio di Angelo Guarnieri, Web Developer">
+    <title>Angelo Guarnieri</title>
+</head>
+
+<body>
+<header class="navbar">
+    <div class="container-xxl px-4 px-xxl-0">
+        <!-- LOGO -->
+        <div class="logo-container">
+            <a href="#intro">
+                <img src="images/logo_ag.png" alt="logo">
+            </a>
+        </div>
+
+        <!-- BURGER MENU -->
+        <div class="burger-menu" aria-label="Burger Menu">
+            <div class="line-menu half start"></div>
+            <div class="line-menu"></div>
+            <div class="line-menu half end"></div>
+        </div>
+
+        <!-- MENU ITEM -->
+        <div class="menu-container">
+            <ul class="menu-mobile">
+                <li class="smooth-yellow-text active">
+                    <a href="#intro">Home</a>
+                </li>
+                <li class="smooth-yellow-text">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="smooth-yellow-text">
+                    <a href="#cv">Cv</a>
+                </li>
+                <li class="smooth-yellow-text">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+<main>
+    <!-- INTRO -->
+    <section id="intro" class="intro-container bg_dark overflow-hidden">
+        <div class="container-xxl px-4 px-xxl-0">
+            <div class="row py-5 align-items-center">
+
+                <!-- intro Description -->
+                <div class="col-12 col-sm-6">
+                    <div class="d-flex flex-column">
+                        <p class="intro-text">Introducing</p>
+                        <h1 class="main-heading m-0">Hi,</h1>
+                        <h1 class="main-heading mb-3">I'm Angelo Guarnieri</h1>
+                        <p class="description-text mb-4">
+                            Two years ago, I began my journey as a <span class="text-green">web developer</span>, turning my deep passion for computer science into a profession; collaborating with consulting companies and talented colleagues, in order to create innovative and engaging digital products.
+                        </p>
+                        <button class="btn-custom mb-5" aria-label="Contact me" onclick="location.href='#contact'">
+                            Contact Me
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Image Section -->
+                <div class="col-12 col-sm-6 text-center">
+                    <img class="intro-image" src="images/photo_ag.png" alt="Angelo Guarnieri"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wave_close"></div>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-container overflow-hidden py-4 py-md-5">
+        <div class="container-xxl px-4 px-xxl-0">
+            <div class="row py-5 align-items-center">
+
+                <!-- Skills Icons -->
+                <div class="col-12 col-sm-6 text-center mb-5 mb-sm-0">
+                    <div class="row">
+                        <!-- First Row -->
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/01_html.png" alt="HTML">
+                        </div>
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/02_css.png" alt="CSS">
+                        </div>
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/03_sass.png" alt="Sass">
+                        </div>
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/04_boot.png" alt="Bootstrap">
+                        </div>
+
+                        <!-- Second Row -->
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/04_1_tailw.png" alt="Tailwind CSS">
+                        </div>
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/05_js.png" alt="JavaScript">
+                        </div>
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/06_ts.png" alt="TypeScript">
+                        </div>
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/07_vue.png" alt="Vue.js">
+                        </div>
+
+                        <!-- Third Row -->
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/08_angular.png" alt="Angular">
+                        </div>
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/09_material.png" alt="Angular Material">
+                        </div>
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/10_php.png" alt="PHP">
+                        </div>
+                        <div class="col-3 p-3 p-lg-4">
+                            <img src="images/11_laravel.png" alt="Laravel">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Description -->
+                <div class="col-12 col-sm-6 ps-sm-3 ps-lg-5">
+                    <p class="intro-text">My Skills</p>
+                    <h1 class="m-0 text-black mb-3">Why Choose Me for Your Project?</h1>
+                    <p class="description-text text-light-black m-0">
+                        Technology simplifies complex processes and enhances daily life. My aim is to deliver functional, accessible, and high-performing products through top-notch digital solutions.
+                    </p>
+                    <p class="description-text text-light-black mb-4">
+                        With my experience, I can turn your ideas into modern and intuitive interfaces; which is pivotal for focusing on practical and problem-solving code, adding value to the final project.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="wave_open"></div>
+
+    <!-- CV -->
+    <section id="cv" class="cv-container bg_dark overflow-hidden py-4">
+        <div class="container-xxl px-4 px-xxl-0">
+            <div class="row align-items-start py-lg-4">
+
+                <!-- Education Description -->
+                <div class="col-12 col-md-6 pb-5">
+                    <p class="intro-text">Education</p>
+                    <ul>
+                        <li class="ps-4 ms-2 pb-3">
+                            <h4>Epicode Institute of Technology</h4>
+                            <p class="m-0 ps-3">BSc in Computer Engineering & AI</p>
+                            <p class="ps-3 text-light-gray text-14px">October 2024 - Ongoing</p>
+                        </li>
+
+                        <li class="ps-4 ms-2 pb-3">
+                            <h4>Experis Academy</h4>
+                            <p class="m-0 ps-3">Specialization in .Net Software Development</p>
+                            <p class="ps-3 text-light-gray text-14px">June 2022 - July 2022</p>
+                        </li>
+
+                        <li class="ps-4 ms-2">
+                            <h4>Boolean</h4>
+                            <p class="m-0 ps-3">Specialization in Full Stack Web Development</p>
+                            <p class="ps-3 text-light-gray text-14px">December 2021 - June 2022</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Experience Description -->
+                <div class="col-12 col-md-6 pb-4">
+                     <p class="intro-text">Experience</p>
+                    <ul>
+                        <li class="ps-4 ms-2 pb-3">
+                            <h4>Lutech</h4>
+                            <p class="m-0 ps-3">Front-End Developer</p>
+                            <p class="ps-3 text-light-gray text-14px">May 2023 - Ongoing</p>
+                        </li>
+
+                        <li class="ps-4 ms-2 pb-3">
+                            <h4>Contrader</h4>
+                            <p class="m-0 ps-3">Full Stack Developer</p>
+                            <p class="ps-3 text-light-gray text-14px">September 2022 - April 2023</p>
+                        </li>
+
+                        <li class="ps-4 ms-2">
+                            <h4>Content Creator</h4>
+                            <p class="m-0 ps-3">Videomaker and photographer for top corporate clients</p>
+                            <p class="ps-3 text-light-gray text-14px">September 2016 - June 2022</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="wave_close mb-5 mb-md-0"></div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-container overflow-hidden py-4 py-md-5">
+        <div class="container-xxl px-4 px-xxl-0">
+            <div class="row py-2 py-lg-5 align-items-center">
+
+                <!-- Skills Description -->
+                <div class="col-12 col-lg-6 ps-sm-3 pb-4 pe-4">
+                    <p class="intro-text">Contact Me</p>
+                    <h1 class="m-0 text-black mb-3">Let's Work Together</h1>
+                    <p class="description-text text-light-black m-0">
+                        For collaborations or to discuss your project, feel free to contact me. I’ll be happy to hear your ideas and will get back to you as soon as possible!
+                    </p>
+                </div>
+
+                <!-- Form di contatto -->
+                <div class="col-12 col-lg-6">
+                    <form id="contactForm">
+                        <div class="mb-3 row">
+                            <div class="col-12 col-sm-6">
+                                <label for="name" class="form-label">Full name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button id="submitBtn" type="submit" class="btn-custom w-100" disabled>Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<div class="wave_open"></div>
+
+<!-- FOOTER -->
+<footer class="footer-container bg_dark overflow-hidden d-flex justify-content-center position-relative">
+
+    <!-- Logo info -->
+    <div class="d-none d-lg-flex flex-column align-items-center mb-3">
+        <div class="logo-footer pb-2">
+            <img src="images/logo_ag.png" alt="Angelo Guarnieri Logo">
+        </div>
+
+        <h5 class="m-0">Angelo Guarnieri</h5>
+        <p class="text-green">Web Developer</p>
+    </div>
+
+    <!-- Social -->
+    <div class="footer-contact d-flex mb-5 mb-lg-0 gap-4 align-items-center">
+        <a href="https://www.linkedin.com/in/ilguarnieri/" class="logo-footer" target="_blank" aria-label="LinkedIn Profile">
+            <img src="images/in.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/ilguarnieri" class="logo-footer" target="_blank" aria-label="GitHub Profile">
+            <img src="images/github.png" alt="GitHub">
+        </a>
+        <a href="https://t.me/ilguarnieri" class="logo-footer" target="_blank" aria-label="Telegram Profile">
+            <img src="images/telegram.png" alt="Telegram">
+        </a>
+    </div>
+
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

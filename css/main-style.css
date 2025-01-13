@@ -1,0 +1,108 @@
+@import url(colors.css);
+
+/* INTRO */
+.intro-container {
+   padding-top: 100px;
+}
+
+.intro-container .intro-image {
+    max-width: 350px;
+}
+
+.intro-text {
+    color: var(--text-green);
+    font-weight: 500;
+}
+
+.intro-text::before {
+    content: '';
+    position: relative;
+    display: inline-block;
+    height: 1px;
+    width: 15px;
+    background-color: var(--text-green);
+    margin-right: 5px;
+    top: -5px;
+}
+
+.main-heading {
+    font-size: calc(20px + 5vw);
+    font-weight: bold;
+}
+
+.description-text {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+/* SKILLS */
+.skills-container .row .col-3 img {
+    animation: zoomInOut 3s ease-in-out infinite;
+}
+
+@media (min-width: 1025px) {
+    .main-heading {
+        font-size: 80px;
+    }
+
+    .description-text {
+        font-size: 16px;
+    }
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* FOOTER */
+.footer-container h5 {
+    font-size: 17px;
+    position: relative;
+}
+
+.footer-container h5::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 180px;
+    background-color: var(--text-green);
+    margin-right: 5px;
+    top: 19px;
+    left: -17px;
+}
+
+.footer-container p {
+    font-size: 12px;
+}
+
+.footer-container .logo-footer {
+    width: 40px;
+}
+
+
+@media (min-width: 992px) {
+    .footer-contact{
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+    .footer-contact .logo-footer {
+        transition: transform 200ms ease-in-out;
+    }
+
+    .footer-contact .logo-footer:hover {
+        transform: scale(1.1);
+        filter: brightness(1.1);
+    }
+}

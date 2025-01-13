@@ -1,0 +1,14 @@
+:root {
+    --background-dark-grey: #262626;
+    --text-white: #fff;
+    --text-soft-white: #e9f0fd;
+    --text-light-grey: rgba(255, 255, 255, 0.51);
+    --text-black: #000000;
+    --text-light-black: #3a3636;
+    --light-yellow: #FECC1B;
+    --dark-yellow: #FFB029;
+    --gradient-yellow: linear-gradient(to right, #FECC1B 0%, #FFB029 100%);
+    --gradient-yellow-reverse: linear-gradient(to right, #FFB029 0%, #FECC1B 100%);
+    --text-green: #3ead75;
+    --shadow-green: #3ead758b;
+}
